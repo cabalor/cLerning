@@ -14,13 +14,25 @@ namespace FirstApp
 
             byte number =  4;
             int num = 333;
-            long dd;
-            const float Pi = 3.15f;
+            long dd = 1231L;
+            const float Pi = 3.14f;
             decimal big = 3.5657765m;
             double dob = 4.5;
             char s = 's';
-            Console.WriteLine("number"+number+" "+dob+" "+big+" "+Pi+" "+num+" "+s);
-            Console.WriteLine(dob);
+            var dupa = true;
+            var character = 's';
+            Console.WriteLine("number"+number+" "+dob+" "+big+" "+Pi+" "+num+" "+s+" "+dd);
+            Console.WriteLine(dupa + " "+ character);
+            Console.WriteLine("{0} {1}", byte.MaxValue, byte.MinValue);
+            Console.WriteLine("{0} {1}", float.MaxValue, float.MinValue);
+
+            int k = 4;
+            string str = "21";
+            int kk = Convert.ToInt32(str);
+            String str2 = Convert.ToString(k); ;
+            Console.WriteLine(k+" string maly "+str+" int dziwny "+kk+" string duzy "+str2);
+            int kk3 = int.Parse(str2);
+
         }
     }
 }
