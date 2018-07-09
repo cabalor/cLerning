@@ -33,6 +33,15 @@ namespace FirstApp
             Console.WriteLine(k+" string maly "+str+" int dziwny "+kk+" string duzy "+str2);
             int kk3 = int.Parse(str2);
 
+            int liczb1 = 1;
+            int liczba = 3;
+            Console.WriteLine(dodaj(liczb1, liczba));
+
+        }
+
+        public static int dodaj(int a, int b)
+        {
+            return a + b;
         }
     }
 }
