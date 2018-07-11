@@ -37,6 +37,15 @@ namespace FirstApp
             int liczba = 3;
             Console.WriteLine(dodaj(liczb1, liczba));
 
+
+            int[] numbers = new int[3];
+            String[] names = new string[2];
+            var surnames = new string[4];
+            numbers[0] = 44;
+            surnames[00] = "dupek";
+
+
+
         }
 
         public static int dodaj(int a, int b)

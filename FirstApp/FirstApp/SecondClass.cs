@@ -9,14 +9,14 @@ namespace FirstApp
     class SecondClass
     {
 
-        static void Main(string[] args)
+        /*static void Main(string[] args)
         {
 
             Person p1 = new Person("janek", "banek");
             p1.personOut();
 
 
-        }
+        }*/
 
 
     }
