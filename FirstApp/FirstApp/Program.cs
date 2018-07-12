@@ -45,6 +45,21 @@ namespace FirstApp
             surnames[00] = "dupek";
 
 
+            string str1 = "dupa";
+            String kupa = "kupa";
+
+            String sraka = str1 + " " +kupa;
+
+            var kupka = string.Format("dupa {0} {1}", str1, kupa);
+
+            var brzydale = new String[5] {"jeden", "dwa", "zaba","daba","dddd" };
+            var join = string.Join("-", brzydale);
+            Console.WriteLine(join);
+
+            String zdanie = "Dzien dobry \nzastałem jolke \nc:\\bleeee";
+            String zdanie2 = @"Dzien dobry nzastałem jolke nc:\";
+            Console.WriteLine(zdanie + " to jest to samo co" + " zdanie2");
+
 
         }
 
