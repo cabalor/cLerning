@@ -8,7 +8,7 @@ namespace FirstApp
 {
     class Program
     {
-        static void Main(string[] args)
+        /*static void Main(string[] args)
         {
             Console.WriteLine("Hello");
 
@@ -58,10 +58,10 @@ namespace FirstApp
 
             String zdanie = "Dzien dobry \nzastałem jolke \nc:\\bleeee";
             String zdanie2 = @"Dzien dobry nzastałem jolke nc:\";
-            Console.WriteLine(zdanie + " to jest to samo co" + " zdanie2");
+            Console.WriteLine(zdanie + " to jest to samo co" +  zdanie2);
 
 
-        }
+        }*/
 
         public static int dodaj(int a, int b)
         {
