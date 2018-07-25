@@ -122,10 +122,54 @@ namespace FirstApp
             {
                 Console.WriteLine(liczba);
             }
-           
 
+            var licz = 0;
             
+            while(licz < 10)
+            {
+                Console.WriteLine(licz);
+                licz++;
 
+            }
+            Boolean xx = true;
+            while(xx == true)
+            {
+                Console.WriteLine("wpisz cos");
+                var input = Console.ReadLine();
+
+                if (String.IsNullOrWhiteSpace(input))
+                {
+                    Console.WriteLine("wpisałeś dupe nic sie nie dzieje ");
+                } else
+                {
+                    Console.WriteLine("wpisales ladnie "+input);
+                    xx = false;
+                
+                }
+            }
+
+
+            var rnd = new Random();
+
+            for (var t = 0; t < 5; t++)
+            {
+                rnd.Next(0, 50);
+            }
+            Console.Write((char)rnd.Next(122, 221));
+            Console.WriteLine(" pusta linia \n");
+            Console.Write((char)('a' + rnd.Next(0, 26)));
+
+
+            const int lengtth = 8;
+            char[] characters = new char[lengtth];
+
+            for (var z = 0; z < lengtth; z++)
+            {
+                characters[z] = (char)('a'+rnd.Next(0, 26));
+            }
+            var pass = new String(characters);
+
+            Console.WriteLine(pass);
 
 
         }
