@@ -172,6 +172,45 @@ namespace FirstApp
             Console.WriteLine(pass);
 
 
+            var liczby2 = new[] {1,2,3,4,5,6};
+
+            Console.WriteLine(liczby2.Length);
+            var inde = Array.IndexOf(liczby2, 4);
+            var inde2 = Array.IndexOf(liczby2, 3);
+            Console.WriteLine(inde);
+            Console.WriteLine(inde2);
+
+            var lista = new List<String>();
+            lista.Add("sraczka");
+            lista.AddRange(new string[] { "dd","ddddd","csdsdad"});
+            Boolean bb = lista.Contains("sraczka");
+            List<String> lista2 = new List<string>();
+            lista2.Add("duda");
+
+            foreach(var str in lista)
+            {
+                Console.WriteLine(str);
+            }
+
+            lista.RemoveAt(3);
+            Console.WriteLine();
+            foreach (var str in lista)
+            {
+                Console.WriteLine(str);
+            }
+            
+            for(var t =0; t<lista.Count; t++)
+            {
+                if (lista[t].Equals("dd"))
+                {
+                    lista.Remove(lista[t]);
+                }
+            }
+            Console.WriteLine();
+            foreach (var str in lista)
+            {
+                Console.WriteLine(str);
+            }
         }
     }
 }
