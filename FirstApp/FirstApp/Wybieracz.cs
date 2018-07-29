@@ -24,7 +24,7 @@ namespace FirstApp
     class Wybieracz
     {
 
-        static void Main(string[] args)
+        /*static void Main(string[] args)
         {
 
 
@@ -211,6 +211,6 @@ namespace FirstApp
             {
                 Console.WriteLine(str);
             }
-        }
+        }*/
     }
 }
