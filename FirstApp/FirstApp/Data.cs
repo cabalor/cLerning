@@ -31,6 +31,34 @@ namespace FirstApp
 
             Console.WriteLine("-------------time------------");
 
+            TimeSpan span = new TimeSpan(1, 2, 3);
+            var timespan = new TimeSpan(1,0,0);
+            var timespan2 = TimeSpan.FromHours(1);
+
+            var sta = DateTime.Now;
+            var end = DateTime.Now.AddMinutes(2);
+
+            var duration = end - sta;
+
+            Console.WriteLine("dur " + duration);
+
+            Console.WriteLine("Minutes "+ timespan.Minutes);
+            Console.WriteLine("total minutes "+timespan.TotalMinutes);
+
+            Console.WriteLine("Add ex: "+ timespan.Add(TimeSpan.FromMinutes(8)));
+            Console.WriteLine("sub ex: " + timespan.Subtract(TimeSpan.FromMinutes(8)));
+
+            Console.WriteLine(timespan.ToString());
+
+            Console.WriteLine(TimeSpan.Parse("01:33:45"));
+
+            var test = "testowy ";
+            Console.WriteLine(test.Trim());
+
+            var index = test.IndexOf(" ");
+
+
+
         }
 
 
