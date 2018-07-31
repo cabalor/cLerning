@@ -58,6 +58,39 @@ namespace FirstApp
             var index = test.IndexOf(" ");
 
 
+            var zdanie = "dddd ddddd dddd zdanie ddd d dddd dddd zdanie";
+            const int max = 15;
+            int wyrazyLiterowe = 0;
+            var listka = new List<string>();
+            if (zdanie.Length < max)
+            {
+                Console.WriteLine("short");
+            } else
+            {
+                Console.WriteLine("long");
+                String[] words = zdanie.Split(' ');
+                foreach(string w in words)
+                {
+                    wyrazyLiterowe += w.Length + 1;
+                    listka.Add(w);
+                }
+
+            }
+
+            Console.WriteLine(wyrazyLiterowe + " wyrazy literowe");
+
+
+            StringBuilder sb = new StringBuilder();
+
+            sb.Append('-', 10).AppendLine().Append("dupa").AppendLine();
+          
+            sb.Replace('-','*');
+            Console.WriteLine(sb);
+
+            Console.WriteLine(sb[4]);
+
+
+
 
         }
 
