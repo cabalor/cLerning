@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -91,6 +92,26 @@ namespace FirstApp
 
 
 
+            File.Copy(@"c:\temp\plik.jpg", @"d:\temp\plik"); //without @ "d:\\temp\\plik"
+
+            var path = @"c:\tralala.jpg";
+
+            File.Delete(path);
+
+            if (File.Exists(path))
+            {
+                Console.WriteLine("jestem,");
+            }
+
+            FileInfo info = new FileInfo(path);
+
+            info.CopyTo("...");
+
+            if (info.Exists)
+            {
+                Console.WriteLine("jestem");
+            }
+            info.Delete();
 
         }
 
