@@ -9,7 +9,7 @@ namespace FirstApp
 {
     class Data
     {
-        static void Main(String[] args)
+        /*static void Main(String[] args)
         {
 
             DateTime date = new DateTime();
@@ -113,8 +113,28 @@ namespace FirstApp
             }
             info.Delete();
 
-        }
 
+            Directory.CreateDirectory(@"c:\dupa");
+            var files = Directory.GetFiles(@"d:\allfiles", "*.*", SearchOption.AllDirectories);
+
+            foreach (var f in files)
+            {
+                Console.WriteLine(f);
+            }
+
+            Directory.GetDirectories(@"d:\dupa", "*.*", SearchOption.AllDirectories);
+
+            Directory.Exists(path);
+
+            var kropka = path.IndexOf('.');
+            var extenson = path.Substring(kropka);
+
+            Console.WriteLine("Extension: "+ Path.GetExtension(path));
+            Console.WriteLine("nazwa pliku: " + Path.GetFileName(path));
+            Console.WriteLine("bez rozszerzenia: " + Path.GetFileNameWithoutExtension(path));
+            Console.WriteLine("katalog: " + Path.GetDirectoryName(path));
+        }*/
+                    
 
     }
 }
