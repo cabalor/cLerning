@@ -9,17 +9,39 @@ namespace FirstApp
 {
     class Filessss
     {
+         const int dupa = 5;
+
 
         static void Main(String[] args)
         {
             var path = @"d:\dupa.txt";
-
+            
 
             String str = File.ReadAllText(path);
             String[] tab = str.Split(' ');
 
 
             Console.WriteLine(str + " " +tab.Length + " najdluzszy wyraz "+ count(tab));
+
+
+            List<String> stringi = new List<string>();
+            stringi.Add("f5 debug");
+            stringi.Add("a to napis");
+
+            Console.WriteLine(stringi.ElementAt(0));
+
+            if(stringi.Count < dupa)
+            {
+                //throw new ArgumentOutOfRangeException("dupa jest za duza");
+                Console.WriteLine("a jak sie wywali to jest okej ");
+                    
+            } else
+            {
+                stringi.Add("kolejny string");
+            }
+
+
+
         }
 
 
@@ -36,9 +58,11 @@ namespace FirstApp
 
 
             }
-
-
             return longest;
         }
+
+
+       
+
     }
 }
