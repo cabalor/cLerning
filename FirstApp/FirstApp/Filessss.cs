@@ -12,7 +12,7 @@ namespace FirstApp
          const int dupa = 5;
 
 
-        static void Main(String[] args)
+       /* static void Main(String[] args)
         {
             var path = @"d:\dupa.txt";
             
@@ -42,7 +42,7 @@ namespace FirstApp
 
 
 
-        }
+        }*/
 
 
 
