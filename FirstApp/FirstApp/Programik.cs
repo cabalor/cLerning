@@ -29,7 +29,6 @@ namespace FirstApp
     }
 
 
-
     class Programik
     {
         static void Main(String[] args)
@@ -41,6 +40,17 @@ namespace FirstApp
             person.name = "jan";
             person.Hello("karol");
             p2.Hello("tedy");
+
+            var warrior = new Wojownik
+            {
+                name = "rysio"
+            };
+            var bron = new Weapon();
+            bron.setName("siekiera");
+
+            var wojownik2 = new Wojownik();
+
+
 
         }
 

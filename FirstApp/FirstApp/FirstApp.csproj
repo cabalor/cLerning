@@ -50,6 +50,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="rok.cs" />
     <Compile Include="SecondClass.cs" />
+    <Compile Include="Weapon.cs" />
+    <Compile Include="Wojownik.cs" />
     <Compile Include="Wybieracz.cs" />
   </ItemGroup>
   <ItemGroup>
