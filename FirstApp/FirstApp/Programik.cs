@@ -23,11 +23,7 @@ namespace FirstApp
             pers.name = str;
             return pers;
         }
-
-
-
     }
-
 
     class Programik
     {
@@ -51,7 +47,63 @@ namespace FirstApp
             var wojownik2 = new Wojownik();
 
 
+            //var number =  int.Parse("blalal");
 
+
+            int liczba;
+            Boolean b = int.TryParse("blalal", out liczba);
+
+            if (b)
+            {
+                Console.WriteLine(liczba);
+            } else
+            {
+                Console.WriteLine("problem");
+            }
+
+
+
+
+        }
+
+        static void Params()
+        {
+
+            var cal = new Calc();
+
+            Console.WriteLine(cal.Add(1, 2, 3));
+            Console.WriteLine(cal.Add(1, 2, 3, 5, 6));
+
+            Console.WriteLine(cal.Add(new int[] { 4, 5, 6, 7, 8 }));
+
+
+        }
+
+
+
+
+
+        static void Funkcja()
+        {
+            try
+            {
+
+                Punkt pkt = new Punkt(5, 5);
+                pkt.ruch(new Punkt(10, 10));
+
+                Console.WriteLine("punkt {0},{1}", pkt.x, pkt.y);
+
+
+                pkt.ruch(35, 35);
+
+                Console.WriteLine("punkt {0},{1}", pkt.x, pkt.y);
+
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("problem " + e.Source);
+
+            }
         }
 
 
