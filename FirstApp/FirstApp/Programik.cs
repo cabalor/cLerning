@@ -7,6 +7,35 @@ using System.Threading.Tasks;
 namespace FirstApp
 {
 
+    public class Klient
+    {
+        public int id;
+        public string imie;
+        public int wiek;
+
+        public List<Order> zamowienia = new List<Order>();
+
+        public Klient(int wiek)
+        {
+            this.wiek = wiek;
+        }
+
+        public Klient(int id, string imie, int wiek)
+            :this(wiek)
+        {
+            this.id = id;
+            this.imie = imie;
+        }
+    }
+
+
+    public class Order{
+
+
+        }
+
+
+
     public class Osoba
     {
         public String name;
