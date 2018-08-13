@@ -36,68 +36,6 @@ namespace FirstApp
 
 
 
-    public class Osoba
-    {
-        public String name;
-
-
-        public void Hello(String str)
-        {
-            Console.WriteLine("Hi {0}, Jestem {1}", str, name);
-        }
-
-        public static Osoba zmien(String str)
-        {
-            var pers = new Osoba();
-            pers.name = str;
-            return pers;
-        }
-    }
-
-
-    public class Czolwiek
-    {
-        private String imie;
-
-        public String getImie()
-        {
-            return imie;
-        }
-
-        public void setImie(String imie)
-        {
-            this.imie = imie;
-        }
-        public DateTime urodziny { get; set; }
-
-        public int wiek {
-
-            get { var roznica = DateTime.Today - urodziny;
-                var lata = roznica.Days / 365;
-                return lata;
-            }
-
-        }
-
-
-        public Czolwiek(DateTime uro)
-        {
-            urodziny = uro;
-        }
-
-
-
-
-        public override String ToString()
-        {
-            return "imie " + imie;
-        }
-
-
-    }
-
-
-
 
     class Programik
     {
@@ -140,6 +78,16 @@ namespace FirstApp
             czlowien.setImie("turbo");
             Console.WriteLine(czlowien.ToString());
             Console.WriteLine(czlowien.wiek);
+
+
+
+            var cook = new HttpCookie();
+
+            cook["jeden"] = "pierwszy";
+
+            Console.WriteLine(cook["jeden"]);
+
+
 
 
 

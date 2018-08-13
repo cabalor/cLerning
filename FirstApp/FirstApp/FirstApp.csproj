@@ -43,8 +43,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Calc.cs" />
+    <Compile Include="Czolwiek.cs" />
     <Compile Include="Data.cs" />
     <Compile Include="Filessss.cs" />
+    <Compile Include="HttpCookie.cs" />
+    <Compile Include="Osoba.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Programik.cs" />
