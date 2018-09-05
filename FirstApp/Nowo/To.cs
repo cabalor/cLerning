@@ -18,10 +18,9 @@ namespace Nowo
 
     }
 
-
     public class To
     {
 
-
+        public string Name { get; set; }
     }
 }
