@@ -7,18 +7,6 @@ using System.Threading.Tasks;
 namespace FirstApp
 {
 
-    public class SuperSmerf : Smerf
-    {
-
-        public void superAttack()
-        {
-
-            Console.WriteLine("smerf's punch");
-        } 
-
-
-    }
-
     class Programik2
     {
 
@@ -26,7 +14,7 @@ namespace FirstApp
         static void Main(String[] args)
         {
 
-            var text = new Text();
+            /*var text = new Text();
             text.Wysokosc = 100;
             text.Kop();
 
@@ -43,9 +31,16 @@ namespace FirstApp
 
             installer.install();
 
-            var smerf = new Smerf();
+            var smerf = new Smerf();*/
 
 
+
+
+            var car = new Car(123);
+
+            var test1 = Test.testWithName("test 1");
+
+            Console.WriteLine(test1.toString());
 
 
 
