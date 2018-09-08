@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 namespace FirstApp
 {
 
+
+
     class Programik2
     {
 
@@ -42,6 +44,11 @@ namespace FirstApp
 
             Console.WriteLine(test1.toString());
 
+
+
+            Tekst txt = new Tekst();
+
+            Kształt ksztalt = txt;
 
 
 
