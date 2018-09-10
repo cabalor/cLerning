@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
+using System.Collections;
 
 namespace FirstApp
 {
@@ -49,6 +51,13 @@ namespace FirstApp
             Tekst txt = new Tekst();
 
             Kształt ksztalt = txt;
+
+            StreamReader streamReader = new StreamReader(new MemoryStream());
+
+            var lista = new List<String>();
+
+
+            Kształt kszt1 = new Tekst();
 
 
 

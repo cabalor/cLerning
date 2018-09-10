@@ -50,6 +50,7 @@
     <Compile Include="Filessss.cs" />
     <Compile Include="HttpCookie.cs" />
     <Compile Include="Installer.cs" />
+    <Compile Include="Kształt.cs" />
     <Compile Include="Logger.cs" />
     <Compile Include="ObiektCwiczebny.cs" />
     <Compile Include="Osoba.cs" />
@@ -62,6 +63,7 @@
     <Compile Include="SecondClass.cs" />
     <Compile Include="Smerf.cs" />
     <Compile Include="SuperSmerf.cs" />
+    <Compile Include="Tekst.cs" />
     <Compile Include="Test.cs" />
     <Compile Include="Text.cs" />
     <Compile Include="Vechicle.cs" />
