@@ -60,6 +60,17 @@ namespace FirstApp
             Kształt kszt1 = new Tekst();
 
 
+            var ksztalty = new List<Kształt>();
+            ksztalty.Add(new Kolo { Wysokosc = 100, Szerokosc = 10, });
+
+            ksztalty.Add(new Kwadrat { Wysokosc = 100, Szerokosc = 10, });
+
+            var rysunki = new Rysunek();
+            rysunki.RysujKształt(ksztalty);
+
+
+
+
 
 
         }
