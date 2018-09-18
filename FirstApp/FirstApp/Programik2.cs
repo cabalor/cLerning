@@ -10,7 +10,6 @@ namespace FirstApp
 {
 
 
-
     class Programik2
     {
 
