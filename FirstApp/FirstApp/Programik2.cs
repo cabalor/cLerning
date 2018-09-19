@@ -10,6 +10,12 @@ namespace FirstApp
 {
 
 
+    public sealed class end
+    {
+        public string eee = " seald means that you canot inherit this class";
+    } 
+
+
     class Programik2
     {
 
