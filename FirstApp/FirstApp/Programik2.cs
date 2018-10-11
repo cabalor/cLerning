@@ -20,10 +20,10 @@ namespace FirstApp
     {
 
 
-        static void Main(String[] args)
+        /*static void Main(String[] args)
         {
 
-            /*var text = new Text();
+            var text = new Text();
             text.Wysokosc = 100;
             text.Kop();
 
@@ -40,7 +40,7 @@ namespace FirstApp
 
             installer.install();
 
-            var smerf = new Smerf();*/
+            var smerf = new Smerf();
 
 
 
@@ -78,7 +78,7 @@ namespace FirstApp
 
 
 
-        }
+        }*/
 
 
     }
