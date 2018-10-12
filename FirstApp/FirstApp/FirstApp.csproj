@@ -44,17 +44,21 @@
   <ItemGroup>
     <Compile Include="Calc.cs" />
     <Compile Include="Car.cs" />
+    <Compile Include="ConsoleLoger.cs" />
     <Compile Include="Czolwiek.cs" />
     <Compile Include="Data.cs" />
     <Compile Include="DataBase.cs" />
     <Compile Include="Filessss.cs" />
     <Compile Include="HttpCookie.cs" />
+    <Compile Include="ILoger.cs" />
     <Compile Include="Installer.cs" />
     <Compile Include="Kolo.cs" />
     <Compile Include="Kształt.cs" />
     <Compile Include="Kwadrat.cs" />
     <Compile Include="Logger.cs" />
+    <Compile Include="Migrator.cs" />
     <Compile Include="ObiektCwiczebny.cs" />
+    <Compile Include="Order.cs" />
     <Compile Include="OrderProcessor.cs" />
     <Compile Include="Osoba.cs" />
     <Compile Include="Person.cs" />
@@ -70,6 +74,7 @@
     <Compile Include="Rysunek.cs" />
     <Compile Include="SecondClass.cs" />
     <Compile Include="ShipCalc.cs" />
+    <Compile Include="Shipment.cs" />
     <Compile Include="Smerf.cs" />
     <Compile Include="Soldier.cs" />
     <Compile Include="SuperSmerf.cs" />

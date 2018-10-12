@@ -9,16 +9,19 @@ namespace FirstApp
 
 
 
-
     class Programik3
     {
 
         static void Main(String[] args)
         {
 
-            var orderProcess = new OrderProcessor(new ShipCalc());
-            var order = new Order { };
-            orderProcess.Process(order);
+            //var orderProcess = new OrderProcessor(new ShipCalc());
+            //var order = new Order { };
+            //orderProcess.Process(order);
+
+            var migrator = new Migrator(new ConsoleLoger());
+            migrator.Migrate();
+
             /*var sum = 0;
             int[,] tab = {{1 ,2 ,3 },{1 ,2 ,3 }, {1 ,2 ,3 } };
 
