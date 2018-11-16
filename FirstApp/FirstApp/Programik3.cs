@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 namespace FirstApp
 {
 
@@ -22,6 +21,8 @@ namespace FirstApp
             var migrator = new Migrator(new ConsoleLoger());
             migrator.Migrate();
 
+            var migrator2 = new Migrator(new FileLogger("d:\\Logs\\log.txt"));
+            migrator.Migrate();
             /*var sum = 0;
             int[,] tab = {{1 ,2 ,3 },{1 ,2 ,3 }, {1 ,2 ,3 } };
 
